@@ -1,298 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Jack's Resume - Profile HTML Page</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This portfolio contains my resume, a little bit about myself, and skills that I have learned while at Iowa.">
 
-     <title>Jack's Resume - Profile HTML Page</title>
+	<!-- Twitter meta tags -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@_JackCaro_">
+	<meta name="twitter:title" content="Jack Corrough">
+	<meta name="twitter:description" content="On this website you will find a few things about me as a student and my resume.">
+	<meta name="twitter:image" content="https://jackcorrough.com/path-to-image.png">
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="keywords" content="">
+	<!-- Open Graph meta tags -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Your Portfolio Page Title">
+	<meta property="og:description" content="A brief description of your portfolio">
+	<meta property="og:image" content="https://jackcorrough.com/path-to-image.png">
+	<meta property="og:url" content="https://jackcorrough.com">
 
-     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png"> 
-     <link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">   
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png"> 
+	<link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">   
 
-     <meta name="description" content="This portfolio contains my resume, a little bit about myself, and skills that I have learned while at Iowa.">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
-     <!-- Twitter meta tags -->
-     <meta name="twitter:card" content="summary">
-     <meta name="twitter:site" content="@_JackCaro_">
-     <meta name="twitter:title" content="Jack Corrough">
-     <meta name="twitter:description" content="On this website you will find a few things about me as a student and my resume.">
-     <meta name="twitter:image" content="https://jackcorrough.com/path-to-image.png">
-     
-     <!-- Open Graph meta tags -->
-     <meta property="og:type" content="website">
-     <meta property="og:title" content="Your Portfolio Page Title">
-     <meta property="og:description" content="A brief description of your portfolio">
-     <meta property="og:image" content="https://jackcorrough.com/path-to-image.png">
-     <meta property="og:url" content="https://jackcorrough.com">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
-<!--
-Jack Resume
-
--->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJ3E7VL422"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DJ3E7VL422');
-</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJ3E7VL422"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-DJ3E7VL422');
+	</script>
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
-
-    <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-
-            <a class="navbar-brand" href="#">
-                Jack Corrough
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link smoothScroll">About Me</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                    <a href="images/MyResume.pdf" class="custom-btn btn" download>Download Resume</a>>
-                  
-                </div>
-            </div>
-
-        </div>
-    </nav>
-
-
-    <!-- HERO -->
-    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
-
-         <div class="container">
-            <div class="row">
-
-                  <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="images/BMO_Headshot_transparent.png" class="img-fluid" alt="Ben Resume HTML Template">
-                  </div>
-
-                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                        <div class="hero-text">
-
-                            <h1 class="hero-title">Jack Corrough</h1>
-
-                            <a href="#" class="email-link">
-                                jackcorrough8@gmail.com
-                            </a>
-                          
-                        </div>
-                    </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="about section-padding" id="about">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h3 class="mb-4">This Is My Website</h3>
-
-                    <p>Hello, I am a graduating senior at the University of Iowa getting degrees in both Finance and Business Analytics & Information Systems.</p>
-                    <p>On this website, you will learn a little about me, be able to view and download my resume, look at some skills that I have learned as an undergrad at UIowa, and see what my peers and colleagues have to say about me.</p>
-
-                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
-                        <li><strong>Full Name:</strong> Jack Corrough </li>
-
-                        <li><strong>Date of Birth:</strong> September 20th, 2000</li>
-
-                        <li><strong>Website:</strong> jackcorrough.com</li>
-
-                        <li><strong>Email:</strong> jackcorrough8@gmail.com</li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="images/Tippie-picture.png" class="about-image img-fluid" alt="Ben's Resume HTML Template">
-                </div>
-
-            </div>
-            <div class="row about-third">
-            	<div class="col-lg-4 col-md-4 col-12">
-                <h3>About me:</h3>
-                <p>I am a from La Grange, Illinois, a suburb outside of Chicago. In my free time I like to play golf, watch sports, and get together with friends.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                <h3>Education:</h3>
-                <p>I am a graduating senior at the University of Iowa getting degrees in both Finance and Business Analytics & Information Systems. </p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                <h3>Skills:</h3>
-                <p>While at Iowa I have developed proficiency in the following skills: Excel, R, Power BI, SQL, Python, Tableau, Data Wrangling & Data Mining, and Microsoft Teams.  </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- TESTIMONIAL -->
-     <section class="testimonials section-padding" id="testimonials">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-12">
-                        <h3 class="mb-5 text-center">What People Say</h3>
-
-                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/Pogge_Testimonial.png" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>"Great student inside the classroom, even better guy outside of it"</p>
-
-                                        <h6 class="mb-0">Evan</h6>
-                                        <span>Friend</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/Chem_Testimonial.png" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>"This guy always seems to beat me in Fifa, I can't figure out how to win against him"</p>
-
-                                        <h6 class="mb-0">Justin</h6>
-                                        <span>Friend</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/Jonny_Testimonial.png" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>"This guy hits tanks on the golf course...further than some pros"</p>
-
-                                        <h6 class="mb-0">Jonny</h6>
-                                        <span>Friend</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/Friends_Testimonial.png" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>"Unbelieveable friend. Jack has been A1 since day 1"</p>
-
-                                        <h6 class="mb-0">Carter, Tyler, Brendan</h6>
-                                        <span>Friends</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     
-
-           	 </div><!-- col -->
-        	</div><!-- row -->
-        </div><!-- container -->
-    </section>
-
-
-     <section class="contact section-padding pt-0" id="contact">
-      <div class="container">
-        <div class="row">
-
-            <div class="mx-auto col-lg-4 col-md-6 col-12">
-                <h3 class="my-4 pt-4 pt-lg-0">Contact Me:</h3>
-
-                <p class="mb-1">630-640-5911</p>
-
-                <p>
-                    <a href="#">
-                        jackcorrough8@gmail.com
-                    <i class="fas fa-arrow-right custom-icon"></i>
-                    </a>
-                </p>
-
-                <ul class="social-links mt-2">
-                    <li><a href="https://twitter.com/_JackCaro_" rel="noopener" class="fab fa-twitter"></a></li>
-                    <li><a href="https://www.instagram.com/jackcorrough/" rel="noopener" class="fab fa-instagram"></a></li>
-                    <li><a href="https://www.linkedin.com/in/jack-corrough-917759223/" rel="noopener" class="fab fa-linkedin"></a></li>
-                    <li><a href="https://github.com/jackcorrough" rel="noopener" class="fab fa-github"></a></li>
-                </ul>
-                
-              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2023 Jack Corrough</p>
-              <footer>
-
-                <a href="cookie-policy.html">Cookie Policy</a><br>
-                <a href="privacy-policy.html">Privacy Policy</a><br>
-                <a href="terms-and-conditions.html">Terms & Conditions</a>  
-                </footer>
-              
-            </div>
-        </div>
-    </div>
-    </section>
-  
-     <!-- SCRIPTS -->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/custom.js"></script>
-</body>
-</html>
+	<!-- MENU BAR -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="#">Jack Corrough</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a href="#intro" class="nav-link smoothScroll">Introduction</a>
+					</li>
+					<li class
